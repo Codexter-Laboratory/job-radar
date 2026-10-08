@@ -11,8 +11,9 @@ dist/
 applicant.json
 private/
 
-# Everything the scraper and apply stage write
-output/
+# Generated output, except the renderer source
+/src/output/*
+!/src/output/render.ts
 
 # OS and editor junk
 .DS_Store
