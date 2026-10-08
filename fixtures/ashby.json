@@ -1,0 +1,13 @@
+{
+  "jobs": [
+    {
+      "title": "Product Engineer",
+      "publishedAt": "2026-02-22T00:00:00.000Z",
+      "location": "Remote - Worldwide",
+      "isRemote": true,
+      "jobUrl": "https://jobs.ashbyhq.com/acme/xyz",
+      "compensation": { "compensationTierSummary": "$120K - $160K" },
+      "descriptionPlain": "Fully remote, we hire contractors worldwide."
+    }
+  ]
+}

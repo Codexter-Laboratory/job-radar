@@ -1,0 +1,15 @@
+[
+  { "legal": "This is a legal notice, not a job posting." },
+  {
+    "id": "998877",
+    "position": "Senior React Engineer",
+    "company": "Globex",
+    "location": "Europe",
+    "url": "https://remoteok.com/remote-jobs/998877",
+    "date": "2026-02-21T10:00:00+00:00",
+    "salary_min": 70000,
+    "salary_max": 95000,
+    "tags": ["react", "typescript"],
+    "description": "<p>Remote in European timezones.</p>"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "firstName": "Hassan",
+  "lastName": "Torfah",
+  "email": "TODO",
+  "phone": "TODO +961 ...",
+  "location": "Beirut, Lebanon",
+  "city": "Beirut",
+  "country": "Lebanon",
+  "linkedin": "TODO https://www.linkedin.com/in/...",
+  "github": "https://github.com/Codexter-Laboratory",
+  "portfolio": "https://hassantorfah.vercel.app",
+  "cvPath": "private/cv.pdf",
+
+  "currentTitle": "Senior Frontend Engineer",
+  "currentCompany": "",
+  "yearsExperience": 6,
+  "noticePeriod": "TODO e.g. Available to start within 2 weeks",
+  "engagement": "Independent contractor, B2B. Invoices through a registered Georgian company (Individual Entrepreneur) with its own business bank account.",
+  "workAuthorisation": "No EU, UK or US work authorisation. Works remotely from Beirut as a B2B contractor, so no sponsorship or relocation is needed for contract work.",
+  "timezone": "UTC+3, overlaps CET and Gulf hours",
+  "languages": "TODO e.g. English (fluent), Arabic (native)",
+  "rate": "TODO e.g. EUR 5,000 per month, negotiable for long engagements",
+  "pitch": "TODO 3 to 5 sentences, facts only: stack (React, TypeScript, Next.js, GraphQL/Apollo, NestJS, PostgreSQL), domains (fintech, digital banking, CRM, SaaS), and one or two concrete things you built.",
+
+  "answers": [
+    { "q": "Are you willing to work as a contractor / B2B?", "a": "Yes, that is my preferred setup." },
+    { "q": "Do you require visa sponsorship?", "a": "No, I work remotely as a B2B contractor." },
+    { "q": "Are you willing to relocate?", "a": "TODO" },
+    { "q": "Can you work CET business hours?", "a": "Yes, I am at UTC+3 and overlap fully with CET working hours." },
+    { "q": "How did you hear about this role?", "a": "Job board" }
+  ],
+
+  "consent": {
+    "privacyPolicy": true,
+    "futureOpportunities": true
+  }
+}

@@ -1,0 +1,93 @@
+name: Daily scrape and apply
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # 06:00 UTC = 09:00 Beirut
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  run:
+    # Datacenter IPs get far more CAPTCHAs on ATS forms. Register your own
+    # machine as a self-hosted runner and set the repo variable RUNNER=self-hosted.
+    runs-on: ${{ vars.RUNNER || 'ubuntu-latest' }}
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Scrape and classify
+        env:
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'openai' }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npm run scrape
+
+      - name: Install browser
+        if: vars.APPLY == 'true'
+        run: npx playwright install --with-deps chromium
+
+      - name: Write applicant file and CV
+        if: vars.APPLY == 'true'
+        env:
+          APPLICANT_JSON: ${{ secrets.APPLICANT_JSON }}
+          CV_PDF_BASE64: ${{ secrets.CV_PDF_BASE64 }}
+        run: |
+          mkdir -p private
+          printf '%s' "$APPLICANT_JSON" > applicant.json
+          printf '%s' "$CV_PDF_BASE64" | base64 -d > private/cv.pdf
+
+      - name: Apply
+        if: vars.APPLY == 'true'
+        env:
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'openai' }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          APPLY_DRY_RUN: ${{ vars.APPLY_DRY_RUN || 'true' }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
+        run: npm run apply
+
+      - name: Remove personal files
+        if: always()
+        run: rm -rf applicant.json private
+
+      - name: Upload screenshots
+        if: always() && vars.APPLY == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: screenshots-${{ github.run_id }}
+          path: output/screenshots/
+          retention-days: 14
+          if-no-files-found: ignore
+
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "job-radar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add output/
+          git diff --cached --quiet || git commit -m "Daily run $(date -u +%F)"
+          git push
+
+      - name: Publish digest to the run summary
+        if: always()
+        run: |
+          cat output/digest.md >> "$GITHUB_STEP_SUMMARY"
+          [ -f output/applications.md ] && cat output/applications.md >> "$GITHUB_STEP_SUMMARY" || true

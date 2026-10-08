@@ -1,0 +1,14 @@
+{
+  "jobs": [
+    {
+      "title": "React Developer",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "telecommuting": true,
+      "url": "https://apply.workable.com/acme/j/ABC123/",
+      "published_on": "2026-02-19",
+      "description": "<div>You will build our web client.</div>",
+      "requirements": "<ul><li>5 years of React</li></ul>"
+    }
+  ]
+}

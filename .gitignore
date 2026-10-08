@@ -1,0 +1,20 @@
+# Dependencies and build
+node_modules/
+dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Personal data
+applicant.json
+private/
+
+# Everything the scraper and apply stage write
+output/
+
+# OS and editor junk
+.DS_Store
+.vscode/
+*.log

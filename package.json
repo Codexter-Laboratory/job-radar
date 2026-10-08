@@ -1,0 +1,32 @@
+{
+  "name": "job-radar",
+  "version": "3.0.0",
+  "description": "Finds B2B contract roles, judges eligibility with an LLM, and applies automatically where the site allows it",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "scrape": "tsx src/index.ts",
+    "label": "tsx src/eval/label.ts",
+    "eval": "tsx src/eval/run.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "apply": "tsx src/apply/run.ts",
+    "daily": "npm run scrape && npm run apply",
+    "done": "tsx src/apply/done.ts",
+    "setup": "playwright install --with-deps chromium"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.4.1",
+    "nodemailer": "^10.0.16",
+    "playwright": "^1.63.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/nodemailer": "^8.0.2",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}

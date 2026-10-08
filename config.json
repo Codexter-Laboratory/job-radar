@@ -1,0 +1,86 @@
+{
+  "profile": {
+    "basedIn": "Beirut, Lebanon",
+    "invoicesFrom": "a registered company in Georgia (B2B)",
+    "timezone": "UTC+3, overlapping CET and Gulf hours",
+    "workAuthorisation": "no EU or US work authorisation"
+  },
+
+  "promptVersion": "v3",
+  "classifierConcurrency": 4,
+  "reviewBelowConfidence": 0.6,
+  "classifier": { "enabled": true },
+
+  "apply": {
+    "enabled": true,
+    "dryRun": true,
+    "dailyCap": 8,
+    "minConfidence": 0.8,
+    "employmentTypes": ["b2b", "unknown"],
+    "companyCooldownDays": 60,
+    "maxAgeDays": 10,
+    "retryFailedAfterDays": 2,
+    "reviewPrepLimit": 10,
+    "excludeCompanies": [],
+    "tryUnknownSites": true,
+    "headless": true,
+    "pauseSeconds": [25, 70]
+  },
+
+  "pricing": {
+    "inputPerMillion": 0.15,
+    "outputPerMillion": 0.6
+  },
+
+  "keywords": [
+    "frontend", "front-end", "front end", "react", "next.js", "nextjs",
+    "typescript", "full stack", "full-stack", "fullstack", "web engineer",
+    "javascript", "solutions engineer", "forward deployed"
+  ],
+  "excludeKeywords": ["intern", "internship", "junior", "wordpress only", "angularjs"],
+  "locationAllow": [
+    "remote", "worldwide", "anywhere", "emea", "europe", "eu ", "cet",
+    "middle east", "mena", "gulf", "uae", "dubai", "saudi", "qatar", "lebanon",
+    "united arab emirates", "germany", "netherlands", "poland", "portugal",
+    "spain", "estonia", "georgia"
+  ],
+  "locationBlock": [
+    "us only", "usa only", "united states only", "us-based only", "canada only",
+    "uk only", "must be located in the us", "north america only"
+  ],
+  "maxAgeDays": 14,
+
+  "linkedinQueries": ["react developer remote", "frontend engineer remote emea"],
+
+  "greenhouseCompanies": [
+    "remotecom", "deel", "gitlab", "sumup", "pleo", "personio", "mollie",
+    "bitpanda", "taxfix", "trivago", "hostaway", "zoi", "smartly", "wolt",
+    "vinted", "bolt", "n26", "solarisbank", "trade-republic", "getyourguide",
+    "babbel", "adjust"
+  ],
+  "leverCompanies": [
+    "netguru", "proxify", "whimsical", "welocalize", "mimo", "plentific",
+    "sporty", "paymentology", "yassir", "tabby"
+  ],
+  "ashbyCompanies": [
+    "linear", "ashby", "supabase", "posthog", "railway", "cal.com", "activepieces"
+  ],
+  "workableCompanies": ["netcompany", "blueground", "insify", "omnipresent", "tamara"],
+  "smartrecruitersCompanies": [],
+  "personioCompanies": [],
+
+  "crawl": { "maxJobsPerSite": 30, "delayMs": 800, "render": true },
+
+  "jobBoards": [
+    { "name": "justjoin", "url": "https://justjoin.it/job-offers/all-locations/javascript", "linkPattern": "/job-offer/" },
+    { "name": "nofluffjobs", "url": "https://nofluffjobs.com/remote/frontend", "linkPattern": "/job/" }
+  ],
+
+  "companySites": [
+    "stxnext.com", "netguru.com", "10clouds.com", "softwaremansion.com", "miquido.com",
+    "boldare.com", "tsh.io", "brainhub.eu", "monterail.com", "vazco.eu",
+    "pragmaticcoders.com", "elitex.systems", "sunscrapers.com", "polcode.com", "inwedo.com"
+  ],
+
+  "recruiteeCompanies": ["mews", "productboard", "kiwi"]
+}
