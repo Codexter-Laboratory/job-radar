@@ -1,0 +1,117 @@
+{
+  "startedAt": "2026-10-09T12:51:11.592Z",
+  "finishedAt": "2026-10-09T12:55:22.879Z",
+  "sources": [
+    {
+      "source": "company-sites",
+      "ok": true,
+      "fetched": 12,
+      "durationMs": 151028,
+      "error": "12/15 site(s) gave nothing: stxnext.com, 10clouds.com, softwaremansion.com, miquido.com, boldare.com, tsh.io, brainhub.eu, vazco.eu, pragmaticcoders.com, elitex.systems, polcode.com, inwedo.com"
+    },
+    {
+      "source": "greenhouse",
+      "ok": true,
+      "fetched": 959,
+      "durationMs": 6029,
+      "error": "13 company slug(s) failed: deel, pleo, personio, mollie, taxfix, hostaway, zoi, smartly, vinted, bolt, trade-republic, babbel, adjust"
+    },
+    {
+      "source": "lever",
+      "ok": false,
+      "fetched": 0,
+      "durationMs": 8566,
+      "error": "10 company slug(s) failed: netguru, proxify, whimsical, welocalize, mimo, plentific, sporty, paymentology, yassir, tabby"
+    },
+    {
+      "source": "ashby",
+      "ok": true,
+      "fetched": 170,
+      "durationMs": 1816,
+      "error": "2 company slug(s) failed: cal.com, activepieces"
+    },
+    {
+      "source": "workable",
+      "ok": true,
+      "fetched": 66,
+      "durationMs": 2641,
+      "error": "2 company slug(s) failed: insify, sunscrapers"
+    },
+    {
+      "source": "recruitee",
+      "ok": false,
+      "fetched": 0,
+      "durationMs": 1238,
+      "error": "3 company slug(s) failed: mews, productboard, kiwi"
+    },
+    {
+      "source": "smartrecruiters",
+      "ok": true,
+      "fetched": 0,
+      "durationMs": 1
+    },
+    {
+      "source": "personio",
+      "ok": true,
+      "fetched": 0,
+      "durationMs": 0
+    },
+    {
+      "source": "remotive",
+      "ok": true,
+      "fetched": 17,
+      "durationMs": 83
+    },
+    {
+      "source": "remoteok",
+      "ok": true,
+      "fetched": 99,
+      "durationMs": 520
+    },
+    {
+      "source": "arbeitnow",
+      "ok": true,
+      "fetched": 750,
+      "durationMs": 495
+    },
+    {
+      "source": "himalayas",
+      "ok": true,
+      "fetched": 20,
+      "durationMs": 78
+    },
+    {
+      "source": "jobicy",
+      "ok": true,
+      "fetched": 100,
+      "durationMs": 98
+    },
+    {
+      "source": "weworkremotely",
+      "ok": false,
+      "fetched": 0,
+      "durationMs": 1763,
+      "error": "all WWR feeds failed: Entity expansion limit exceeded: 1122 > 1000; Entity expansion limit exceeded: 1061 > 1000"
+    },
+    {
+      "source": "linkedin",
+      "ok": true,
+      "fetched": 19,
+      "durationMs": 4250
+    },
+    {
+      "source": "job-boards",
+      "ok": true,
+      "fetched": 50,
+      "durationMs": 72666
+    }
+  ],
+  "totals": {
+    "fetched": 2262,
+    "afterPrefilter": 55,
+    "afterDedupe": 52,
+    "classified": 52,
+    "eligible": 52,
+    "newSinceLastRun": 52
+  }
+}
