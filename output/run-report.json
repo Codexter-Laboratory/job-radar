@@ -1,47 +1,47 @@
 {
-  "startedAt": "2026-11-02T15:09:12.119Z",
-  "finishedAt": "2026-11-02T15:13:02.629Z",
+  "startedAt": "2026-11-03T13:52:18.031Z",
+  "finishedAt": "2026-11-03T13:56:36.804Z",
   "sources": [
     {
       "source": "company-sites",
       "ok": true,
       "fetched": 8,
-      "durationMs": 140229,
+      "durationMs": 160705,
       "error": "12/15 site(s) gave nothing: stxnext.com, 10clouds.com, softwaremansion.com, miquido.com, boldare.com, tsh.io, brainhub.eu, vazco.eu, pragmaticcoders.com, elitex.systems, polcode.com, inwedo.com"
     },
     {
       "source": "greenhouse",
       "ok": true,
-      "fetched": 953,
-      "durationMs": 6164,
+      "fetched": 957,
+      "durationMs": 6616,
       "error": "13 company slug(s) failed: deel, pleo, personio, mollie, taxfix, hostaway, zoi, smartly, vinted, bolt, trade-republic, babbel, adjust"
     },
     {
       "source": "lever",
       "ok": false,
       "fetched": 0,
-      "durationMs": 3624,
+      "durationMs": 3350,
       "error": "10 company slug(s) failed: netguru, proxify, whimsical, welocalize, mimo, plentific, sporty, paymentology, yassir, tabby"
     },
     {
       "source": "ashby",
       "ok": true,
-      "fetched": 191,
-      "durationMs": 1895,
+      "fetched": 187,
+      "durationMs": 2010,
       "error": "2 company slug(s) failed: cal.com, activepieces"
     },
     {
       "source": "workable",
       "ok": true,
       "fetched": 49,
-      "durationMs": 2636,
+      "durationMs": 2731,
       "error": "2 company slug(s) failed: insify, sunscrapers"
     },
     {
       "source": "recruitee",
       "ok": false,
       "fetched": 0,
-      "durationMs": 1334,
+      "durationMs": 1277,
       "error": "3 company slug(s) failed: mews, productboard, kiwi"
     },
     {
@@ -59,60 +59,59 @@
     {
       "source": "remotive",
       "ok": true,
-      "fetched": 12,
-      "durationMs": 127
+      "fetched": 10,
+      "durationMs": 108
     },
     {
       "source": "remoteok",
       "ok": true,
       "fetched": 99,
-      "durationMs": 646
+      "durationMs": 1009
     },
     {
       "source": "arbeitnow",
       "ok": true,
       "fetched": 900,
-      "durationMs": 631
+      "durationMs": 557
     },
     {
       "source": "himalayas",
       "ok": true,
       "fetched": 20,
-      "durationMs": 149
+      "durationMs": 139
     },
     {
       "source": "jobicy",
       "ok": true,
       "fetched": 100,
-      "durationMs": 802
+      "durationMs": 1146
     },
     {
       "source": "weworkremotely",
       "ok": false,
       "fetched": 0,
-      "durationMs": 1375,
-      "error": "all WWR feeds failed: Entity expansion limit exceeded: 1136 > 1000; Entity expansion limit exceeded: 1172 > 1000"
+      "durationMs": 1154,
+      "error": "all WWR feeds failed: Entity expansion limit exceeded: 1136 > 1000; Entity expansion limit exceeded: 1040 > 1000"
     },
     {
       "source": "linkedin",
-      "ok": false,
-      "fetched": 0,
-      "durationMs": 129,
-      "error": "429 Too Many Requests for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=react%20developer%20remote&location=Worldwide&f_WT=2&f_TPR=r604800&start=0"
+      "ok": true,
+      "fetched": 20,
+      "durationMs": 3818
     },
     {
       "source": "job-boards",
       "ok": true,
       "fetched": 50,
-      "durationMs": 70759
+      "durationMs": 74134
     }
   ],
   "totals": {
-    "fetched": 2382,
+    "fetched": 2400,
     "afterPrefilter": 51,
-    "afterDedupe": 47,
-    "classified": 47,
-    "eligible": 47,
-    "newSinceLastRun": 12
+    "afterDedupe": 50,
+    "classified": 50,
+    "eligible": 50,
+    "newSinceLastRun": 10
   }
 }
