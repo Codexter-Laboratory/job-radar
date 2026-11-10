@@ -1,52 +1,58 @@
-# Job radar — 2026-11-09
+# Job radar — 2026-11-10
 
-0 new, 0 still open, 53 needing a look.
+0 new, 0 still open, 50 needing a look.
 
 ## Low confidence, worth a glance
 
-- [Backend Developer (Node.js, TypeScript)](https://justjoin.it/job-offer/staffly-sp-z-o-o--backend-developer-node-js-typescript--warszawa-javascript) — Staffly sp. z o. o. · confidence 0
+- [Programista/Programistka Frontend](https://justjoin.it/job-offer/eservice-sp-z-o-o-programista-programistka-frontend-warszawa-javascript) — eService Sp. z o.o · confidence 0
   classifier disabled
-- [Senior Fullstack Developer](https://justjoin.it/job-offer/silk-software-house-senior-fullstack-developer-warszawa-javascript-660ed203) — SILK SOFTWARE HOUSE · confidence 0
+- [Senior Fullstack Developer](https://justjoin.it/job-offer/link-group-senior-fullstack-developer-warszawa-javascript) — Link Group · confidence 0
   classifier disabled
-- [Regular / Senior Backend Developer (Node.js / TypeScript)](https://justjoin.it/job-offer/hubquest-sp-z-o-o--regular-senior-backend-developer-node-js-typescript--warszawa-javascript) — hubQuest Sp. z o.o. · confidence 0
+- [Senior Product Engineer (React + TypeScript; .NET)](https://justjoin.it/job-offer/publink-senior-product-engineer-react-typescript-net--poznan-javascript) — Publink · confidence 0
   classifier disabled
-- [Senior Full-Stack Developer, Bespoke Projects (Europe)](https://justjoin.it/job-offer/leap-tools-inc--senior-full-stack-developer-bespoke-projects-europe--wroclaw-javascript) — Leap Tools Inc. · confidence 0
+- [Senior React Full-stack Developer](https://himalayas.app/companies/lemon-io/jobs/senior-react-full-stack-developer?utm_source=api) — lemon.io · confidence 0
   classifier disabled
-- [Full Stack PHP and Vue Developer](https://justjoin.it/job-offer/act-digital-full-stack-php-and-vue-developer-warszawa-javascript) — act digital · confidence 0
+- [Senior Frontend Developer (Angular)](https://justjoin.it/job-offer/bluesoft-senior-frontend-developer-angular--warszawa-javascript) — BlueSoft · confidence 0
   classifier disabled
-- [Senior Fullstack Engineer (Python + React)](https://justjoin.it/job-offer/cloudfide-spolka-z-ograniczona-odpowiedzialnoscia-senior-fullstack-engineer-python-react--warszawa-javascript) — CLOUDFIDE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ · confidence 0
+- [Senior Fullstack Engineer – React & Complex Data](https://justjoin.it/job-offer/cerebre-senior-fullstack-engineer---react-complex-data-poznan-javascript) — cerebre · confidence 0
   classifier disabled
-- [Senior React Developer with NX and AI](https://justjoin.it/job-offer/xebia-senior-react-developer-with-nx-and-ai-wroclaw-javascript) — Xebia · confidence 0
+- [React / Electron Developer (Web + Mobile + Desktop)](https://justjoin.it/job-offer/scalo-react-electron-developer-web-mobile-desktop--warszawa-javascript) — Scalo · confidence 0
   classifier disabled
-- [Senior Frontend Developer – Angular](https://justjoin.it/job-offer/act-digital-senior-frontend-developer---angular-warszawa-javascript) — act digital · confidence 0
+- [Senior Frontend Developer (Angular) | Branża Bankowa](https://justjoin.it/job-offer/edge-one-solutions-sp-z-o-o-senior-frontend-developer-angular-branza-bankowa-warszawa-javascript-16867a4a) — Edge One Solutions Sp. z o.o · confidence 0
   classifier disabled
-- [React Engineer](https://justjoin.it/job-offer/emagine-polska-react-engineer-krakow-javascript) — emagine Polska · confidence 0
+- [Senior Full Stack Developer (Node.js, React)](https://justjoin.it/job-offer/accenture-senior-full-stack-developer-node-js-react--krakow-javascript) — Accenture · confidence 0
   classifier disabled
-- [Senior Front-End Developer (Project Lead) eComm agency](https://justjoin.it/job-offer/commerce-ui-senior-front-end-developer-project-lead-ecomm-agency-gdansk-javascript-fbf5f76c) — commerce-ui · confidence 0
+- [Senior Frontend Developer Magento](https://justjoin.it/job-offer/pko-bp-finat-senior-frontend-developer-magento-warszawa-javascript) — PKO BP Finat · confidence 0
   classifier disabled
-- [Lead Fullstack Engineer (Typescript/Node.js) with German](https://justjoin.it/job-offer/spyrosoft-lead-fullstack-engineer-typescript-node-js-with-german-wroclaw-javascript-959b62f1) — Spyrosoft · confidence 0
+- [Senior React Developer](https://justjoin.it/job-offer/h2b-group-senior-react-developer-gdansk-javascript-ed71dd82) — H2B Group · confidence 0
   classifier disabled
-- [React Developer + Azure](https://justjoin.it/job-offer/act-digital-react-developer-azure-warszawa-javascript) — act digital · confidence 0
+- [Senior Backend Engineer (TypeScript + Node.js)](https://justjoin.it/job-offer/framna-senior-backend-engineer-typescript-node-js--gdansk-javascript) — Framna · confidence 0
   classifier disabled
-- [Frontend Developer (React)](https://justjoin.it/job-offer/hubquest-sp-z-o-o--frontend-developer-react--warszawa-javascript) — hubQuest Sp. z o.o. · confidence 0
+- [Expert Fullstack Engineer](https://justjoin.it/job-offer/framna-expert-fullstack-engineer-gdansk-javascript-14142ce4) — Framna · confidence 0
   classifier disabled
-- [React Developer (PHP/Symfony)](https://justjoin.it/job-offer/p-p-solutions-react-developer-php-symfony--warszawa-javascript) — P&P Solutions · confidence 0
+- [Senior Fullstack Engineer](https://justjoin.it/job-offer/framna-senior-fullstack-engineer-gdansk-javascript-5b0f84e2) — Framna · confidence 0
   classifier disabled
-- [Founding Full-Stack Engineer](https://www.arbeitnow.com/jobs/companies/planqorai/founding-full-stack-engineer-berlin-62731) — planqor.ai · confidence 0
+- [Front-End Trainee](https://justjoin.it/job-offer/epam-systems-front-end-trainee-wroclaw-javascript-854f6a82) — EPAM Systems · confidence 0
   classifier disabled
-- [Frontend Developer (Angular)](https://justjoin.it/job-offer/itfs-frontend-developer-angular--warszawa-javascript-22208b17) — ITFS · confidence 0
+- [Senior Full-Stack Developer, Angular](https://justjoin.it/job-offer/epam-systems-senior-full-stack-developer-angular-gdansk-javascript) — EPAM Systems · confidence 0
   classifier disabled
-- [Senior Full-Stack Developer](https://justjoin.it/job-offer/yard-corporate-senior-full-stack-developer-warszawa-javascript) — Yard Corporate · confidence 0
+- [Staff Backend Engineer (Node.js/TypeScript)](https://justjoin.it/job-offer/devsdata-llc-staff-backend-engineer-node-js-typescript--warszawa-javascript) — DevsData LLC · confidence 0
   classifier disabled
-- [Senior Fullstack Developer (.NET / Angular / Oracle)](https://justjoin.it/job-offer/jit-team-senior-fullstack-developer-net-angular-oracle--wroclaw-javascript) — Jit Team · confidence 0
+- [Full-Stack Engineer - ElevenAPI](https://jobicy.com/jobs/161065-full-stack-engineer-elevenapi) — Elevenlabs · confidence 0
   classifier disabled
-- [Senior Software Engineer (React / Node.js) | f/m/d](https://justjoin.it/job-offer/ergo-technology-services-senior-software-engineer-react-node-js-f-m-d-warszawa-javascript) — ERGO Technology & Services · confidence 0
+- [• Pflichtpraktikum / Abschlussarbeit Frontend & 3D-Softwareentwicklung (m/w/d) - unvergütet](https://www.arbeitnow.com/jobs/companies/think3ddd-gbr/pflichtpraktikum-abschlussarbeit-frontend-3d-softwareentwicklung-unvergutet-berlin-175536) — Think3DDD GbR · confidence 0
   classifier disabled
-- [Senior Software Engineer (Node/React)](https://justjoin.it/job-offer/devsdata-llc-senior-software-engineer-node-react--warszawa-javascript-1529c59c) — DevsData LLC · confidence 0
+- [Senior Frontend Engineer Angular (m/w/d) · Remote mit Reiseanteil · Purpose-Unternehmen](https://www.arbeitnow.com/jobs/companies/dyve-gmbh/senior-frontend-engineer-angular-remote-mit-reiseanteil-purpose-unternehmen-berlin-427402) — dyve GmbH · confidence 0
   classifier disabled
-- [Frontend Angular Developer (banking)](https://justjoin.it/job-offer/britenet-frontend-angular-developer-banking--warszawa-javascript-0cdbf968) — Britenet · confidence 0
+- [Full-stack Engineer (f/m/d)](https://www.arbeitnow.com/jobs/companies/tytan-technologies-gmbh/full-stack-engineer-munich-77931) — TYTAN Technologies GmbH · confidence 0
   classifier disabled
-- [Fullstack Developer (Node.js+React)](https://justjoin.it/job-offer/hiberus-poland-fullstack-developer-node-js-react--wroclaw-javascript) — Hiberus Poland · confidence 0
+- [Manager, Forward Deployed Engineering - Munich](https://www.arbeitnow.com/jobs/companies/openai/manager-forward-deployed-engineering-munich-496174) — OpenAI · confidence 0
+  classifier disabled
+- [Regular Fullstack Developer (.Net + Vue) - Freelancer](https://apply.workable.com/j/1E68818EAC) — monterail · confidence 0
+  classifier disabled
+- [Senior React Native Engineer](https://nofluffjobs.com/job/senior-react-native-engineer-softserve-remote) — SoftServe · confidence 0
+  classifier disabled
+- [Frontend Manager Software Engineer (Hands-On) | Partners Acquisition](https://jobicy.com/jobs/160680-frontend-manager-software-engineer-hands-on-partners-acquisition) — Wellhub · confidence 0
   classifier disabled
 - [Java Fullstack Software Engineer (Spring Boot / Angular)](https://www.arbeitnow.ch/jobs/companies/coopers-group-ag/java-fullstack-software-engineer-spring-boot-angular-bern-241500) — Coopers Group AG · confidence 0
   classifier disabled
@@ -56,15 +62,7 @@
   classifier disabled
 - [Solution Expert](https://www.arbeitnow.fr/jobs/companies/360learning/remote-solution-expert-489560) — 360Learning · confidence 0
   classifier disabled
-- [Frontend Developer (React)](https://nofluffjobs.com/job/frontend-developer-react-hubquest-remote) — hubQuest · confidence 0
-  classifier disabled
-- [Senior Fullstack Software Engineer (Ruby/React & TS)](https://www.arbeitnow.fr/jobs/companies/pennylane-sas/remote-senior-fullstack-software-engineer-ruby-react-ts-388753) — Pennylane SAS · confidence 0
-  classifier disabled
 - [Mechanical Forward Deployed Engineer - Switzerland](https://www.arbeitnow.ch/jobs/companies/colabsoftware/mechanical-forward-deployed-engineer-switzerland-385092) — colabsoftware · confidence 0
-  classifier disabled
-- [Senior Full Stack Engineer | Database Observability, Grafana Cloud | UK | Remote](https://www.arbeitnow.co.uk/jobs/companies/grafanalabs/senior-full-stack-engineer-database-observability-grafana-cloud-uk-remote-48471) — grafanalabs · confidence 0
-  classifier disabled
-- [Senior Full Stack Engineer | Database Observability, Grafana Cloud | Germany | Remote](https://www.arbeitnow.com/jobs/companies/grafanalabs/senior-full-stack-engineer-database-observability-grafana-cloud-germany-remote-305330) — grafanalabs · confidence 0
   classifier disabled
 - [Full Stack Engineer](https://jobicy.com/jobs/159681-full-stack-engineer-8) — infisical · confidence 0
   classifier disabled
@@ -84,9 +82,9 @@
   classifier disabled
 - [Staff Fullstack Engineer, Data Products (Golang / Node)](https://job-boards.greenhouse.io/gitlab/jobs/8845277002) — gitlab · confidence 0
   classifier disabled
-- [Senior JavaScript Developer (Angular)](https://nofluffjobs.com/job/senior-javascript-developer-angular-augmenta-remote-3) — Augmenta · confidence 0
-  classifier disabled
 - [Frontend Developer (React)](https://nofluffjobs.com/job/frontend-developer-react-connectis--remote-6) — Connectis_ · confidence 0
+  classifier disabled
+- [Senior JavaScript Developer (Angular)](https://nofluffjobs.com/job/senior-javascript-developer-angular-augmenta-remote-3) — Augmenta · confidence 0
   classifier disabled
 - [Senior Software Engineer (Fullstack) - Merchant EMEA](https://job-boards.greenhouse.io/wolt/jobs/8141574) — wolt · confidence 0
   classifier disabled
@@ -104,11 +102,7 @@
   classifier disabled
 - [Front End Developer](https://remoteOK.com/remote-jobs/remote-front-end-developer-cambridge-information-group-1137597) — Cambridge Information Group · confidence 0
   classifier disabled
-- [Senior Back-end Developer](https://remotive.com/remote-jobs/software-development/senior-back-end-developer-2091135) — Lemon.io · confidence 0
-  classifier disabled
-- [Senior Frontend Developer Vue.js / TypeScript](https://nofluffjobs.com/job/senior-frontend-developer-vue-js-typescript-makeitright-remote) — Makeitright Sp. z o.o. · confidence 0
-  classifier disabled
-- [Frontend Developer (Vue3 / TS / Tailwind)](https://nofluffjobs.com/job/frontend-developer-vue3-ts-tailwind-ework-group-remote) — Ework Group · confidence 0
+- [Frontend Developer - future projects (M/F/NB)](https://pl.linkedin.com/jobs/view/frontend-developer-future-projects-m-f-nb-at-etteplan-4345200203) — Etteplan · confidence 0
   classifier disabled
 
 ## Sources that failed
@@ -116,4 +110,3 @@
 - lever: 10 company slug(s) failed: netguru, proxify, whimsical, welocalize, mimo, plentific, sporty, paymentology, yassir, tabby
 - recruitee: 3 company slug(s) failed: mews, productboard, kiwi
 - weworkremotely: all WWR feeds failed: Entity expansion limit exceeded: 1136 > 1000; Entity expansion limit exceeded: 1011 > 1000
-- linkedin: 429 Too Many Requests for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=react%20developer%20remote&location=Worldwide&f_WT=2&f_TPR=r604800&start=0
