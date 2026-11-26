@@ -1,47 +1,47 @@
 {
-  "startedAt": "2026-11-25T16:57:44.574Z",
-  "finishedAt": "2026-11-25T17:01:48.448Z",
+  "startedAt": "2026-11-26T16:37:26.428Z",
+  "finishedAt": "2026-11-26T16:41:38.408Z",
   "sources": [
     {
       "source": "company-sites",
       "ok": true,
       "fetched": 16,
-      "durationMs": 142221,
+      "durationMs": 155622,
       "error": "11/15 site(s) gave nothing: stxnext.com, 10clouds.com, softwaremansion.com, miquido.com, boldare.com, tsh.io, brainhub.eu, vazco.eu, pragmaticcoders.com, elitex.systems, inwedo.com"
     },
     {
       "source": "greenhouse",
       "ok": true,
-      "fetched": 849,
-      "durationMs": 8701,
+      "fetched": 868,
+      "durationMs": 6522,
       "error": "13 company slug(s) failed: deel, pleo, personio, mollie, taxfix, hostaway, zoi, smartly, vinted, bolt, trade-republic, babbel, adjust"
     },
     {
       "source": "lever",
       "ok": false,
       "fetched": 0,
-      "durationMs": 4585,
+      "durationMs": 2981,
       "error": "10 company slug(s) failed: netguru, proxify, whimsical, welocalize, mimo, plentific, sporty, paymentology, yassir, tabby"
     },
     {
       "source": "ashby",
       "ok": true,
-      "fetched": 206,
-      "durationMs": 1982,
+      "fetched": 208,
+      "durationMs": 1983,
       "error": "2 company slug(s) failed: cal.com, activepieces"
     },
     {
       "source": "workable",
       "ok": true,
-      "fetched": 53,
-      "durationMs": 2824,
+      "fetched": 52,
+      "durationMs": 2592,
       "error": "2 company slug(s) failed: insify, sunscrapers"
     },
     {
       "source": "recruitee",
       "ok": false,
       "fetched": 0,
-      "durationMs": 1191,
+      "durationMs": 2412,
       "error": "3 company slug(s) failed: mews, productboard, kiwi"
     },
     {
@@ -60,58 +60,59 @@
       "source": "remotive",
       "ok": true,
       "fetched": 16,
-      "durationMs": 98
+      "durationMs": 157
     },
     {
       "source": "remoteok",
       "ok": true,
       "fetched": 100,
-      "durationMs": 504
+      "durationMs": 907
     },
     {
       "source": "arbeitnow",
       "ok": true,
       "fetched": 900,
-      "durationMs": 634
+      "durationMs": 710
     },
     {
       "source": "himalayas",
       "ok": true,
       "fetched": 20,
-      "durationMs": 161
+      "durationMs": 175
     },
     {
       "source": "jobicy",
       "ok": true,
       "fetched": 100,
-      "durationMs": 331
+      "durationMs": 299
     },
     {
       "source": "weworkremotely",
       "ok": false,
       "fetched": 0,
-      "durationMs": 1650,
-      "error": "all WWR feeds failed: Entity expansion limit exceeded: 1156 > 1000; Entity expansion limit exceeded: 1112 > 1000"
+      "durationMs": 1997,
+      "error": "all WWR feeds failed: Entity expansion limit exceeded: 1092 > 1000; Entity expansion limit exceeded: 1014 > 1000"
     },
     {
       "source": "linkedin",
-      "ok": true,
-      "fetched": 20,
-      "durationMs": 4129
+      "ok": false,
+      "fetched": 0,
+      "durationMs": 2079,
+      "error": "429 Too Many Requests for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=frontend%20engineer%20remote%20emea&location=Worldwide&f_WT=2&f_TPR=r604800&start=0"
     },
     {
       "source": "job-boards",
       "ok": true,
       "fetched": 50,
-      "durationMs": 74849
+      "durationMs": 73524
     }
   ],
   "totals": {
     "fetched": 2330,
-    "afterPrefilter": 49,
-    "afterDedupe": 40,
-    "classified": 40,
-    "eligible": 40,
-    "newSinceLastRun": 12
+    "afterPrefilter": 41,
+    "afterDedupe": 38,
+    "classified": 38,
+    "eligible": 38,
+    "newSinceLastRun": 11
   }
 }
